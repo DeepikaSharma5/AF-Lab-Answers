@@ -14,7 +14,7 @@ db.students.updateOne(
 )
 
 //7
-db.students.insertMany({ name:"Smith", dateOfBirth : "1990-01-15T00:00:00Z",subjects:["Application Framework","Computer Architecture"],isActive:"true"},{ name:"Jane", dateOfBirth : "1990-02-15T00:00:00Z",subjects:["Application Framework","Computer Architecture"],isActive:"false"})
+db.students.insertMany([{ name:"Smith", dateOfBirth : "1990-01-15T00:00:00Z",subjects:["Application Framework","Computer Architecture"],isActive:"true"},{ name:"Jane", dateOfBirth : "1990-02-15T00:00:00Z",subjects:["Application Framework","Computer Architecture"],isActive:"false"}])
 
 
 //7
